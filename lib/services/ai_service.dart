@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class AIService {
-  static const String _apiKey = 'AIzaSyBSKM5TPNiKo8TpQ-eM2DCv2Rpw9h_Updc';
+  static const String _apiKey = 'YOUR API KEY';
 
   Future<String> analyzeImage(Uint8List imageBytes) async {
     try {
