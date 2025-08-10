@@ -1,0 +1,40 @@
+name: medicine_analyzer
+description: "تطبيق تحليل الأدوية باستخدام الذكاء الاصطناعي"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.0.4
+  http: ^1.1.0
+  google_generative_ai: ^0.2.2
+  flutter_markdown: ^0.6.18
+  cached_network_image: ^3.3.0
+  loading_animation_widget: ^1.2.0
+  provider: ^6.1.1
+  #file_picker: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+
